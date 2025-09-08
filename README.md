@@ -11,6 +11,10 @@ cells.append(nbf.v4.new_markdown_cell("# Data Science Tools and Ecosystem"))
 
 # Exercise 3 - Introduction (Markdown)
 intro_text = """
+This notebook summarizes some of the key tools, libraries, and languages used by data scientists.
+
+This is the final assignment for the Data Science Tools course.
+
 ## Introduction
 Data Science is an interdisciplinary field that combines programming, statistics, mathematics, and domain expertise to extract meaningful insights from data. 
 
