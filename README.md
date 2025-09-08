@@ -64,7 +64,7 @@ tools_table = """\
 """
 nb['cells'].append(nbf.v4.new_markdown_cell(tools_table))
 
-# Exercise 7 - Arithmetic Introduction
+# Exercise 7 - Arithmetic Expression Introduction
 nb['cells'].append(nbf.v4.new_markdown_cell(
     "## Examples of Arithmetic Expressions\n"
     "Below are examples of simple arithmetic operations using Python:\n\n"
@@ -116,7 +116,3 @@ Course: Data Science Tools and Ecosystem
 Date: 2025-09-08
 """
 nb['cells'].append(nbf.v4.new_markdown_cell(author_text))
-
-# Save the notebook
-with open("DataScienceEcosystem.ipynb", "w") as f:
-    nbf.write(nb, f)
